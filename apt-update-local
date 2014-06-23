@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Update / Create local disk repository for apt installable binary packages.
+ 
+PACKAGE_ROOT="/var/local/apt-packages"
+
+################################################################################
+
+if [ $# -gt 0 ]; then 
+  cp $@ ${PACKAGE_ROOT}
+fi
+cd $PACKAGE_ROOT
+
+/usr/bin/apt-ftparchive packages ./ | gzip -9c > ${PACKAGE_ROOT}/Packages.gz

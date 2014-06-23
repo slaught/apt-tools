@@ -1,0 +1,36 @@
+apt-tools (1.2.1) stable; urgency=low
+
+  *  bug in local.list for squeeze
+
+ -- Chad Slaughter <chad.slaughter+debian@gmail.com>  Thu, 26 Dec 2013 18:25:54 -0600
+
+apt-tools (1.2.0) stable; urgency=low
+
+  * trust local by default
+  * remove pathprefix from Packages.gz
+
+ -- Chad Slaughter <chad.slaughter+debian@gmail.com>  Thu, 26 Dec 2013 18:12:23 -0600
+
+apt-tools (1.1.0) stable; urgency=low
+
+  * stable build 
+
+ -- Chad Slaughter <chad.slaughter+debian@gmail.com>  Fri, 13 Dec 2013 15:47:33 -0600
+
+apt-tools (1.0.2) stable; urgency=low
+
+  * add apt-list
+
+ -- Chad Slaughter <chad.slaughter+debian@gmail.com>  Fri, 13 Dec 2013 15:18:22 -0600
+
+apt-tools (1.0.1) stable; urgency=low
+
+  * properly build system.
+
+ -- Chad Slaughter <chad.slaughter+debian@gmail.com>  Fri, 13 Dec 2013 14:54:30 -0600
+
+apt-tools (1.0.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Chad Slaughter <chad.slaughter+debian@gmail.com>  Fri, 13 Dec 2013 14:03:28 -0600

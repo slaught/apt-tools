@@ -1,0 +1,9 @@
+The Debian Package apt-tools
+----------------------------
+
+
+ This is a set of tools to managing local built or downloaded debs to be
+ installed by apt-get to handle dependenices automatically.
+
+
+ -- Chad Slaughter Fri, 13 Dec 2013 14:03:28 -0600

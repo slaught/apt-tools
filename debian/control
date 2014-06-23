@@ -1,0 +1,17 @@
+Source: apt-tools
+Section: misc
+Priority: extra
+Maintainer: Chad Slaughter <chad.slaughter+debian@gmail.com>
+Build-Depends: cdbs, debhelper (>= 7.0.50~), gzip, devscripts
+Standards-Version: 3.8.4
+Homepage: https://github.com/slaught/apt-tools
+#Vcs-Git: https://github.com/slaught/apt-tools.git
+Vcs-Browser: https://github.com/slaught/apt-tools
+
+Package: apt-tools
+Architecture: all
+Depends: apt-utils, apt, gzip, ${shlibs:Depends}, ${misc:Depends}
+Description: tools for a local machine apt repo.
+ This is a set of tools to managing local built or downloaded debs to be
+ installed by apt-get to handle dependenices automatically.
+
