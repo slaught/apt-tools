@@ -1,7 +1,7 @@
 # Local Debs (quick hack)
 # wheezy allow trusting
-#deb file:///var/local/apt-packages/ ./ trusted=yes
+deb [ trusted=yes ] file:///var/local/apt-packages/ ./
 # squeeze
-deb file:///var/local/apt-packages/ ./ 
+#deb file:///var/local/apt-packages/ ./
 
 
